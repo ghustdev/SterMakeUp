@@ -189,7 +189,7 @@ const Testimonials: React.FC = () => {
         </motion.div>
       </div>
 
-      <style jsx global>{`
+      <style>{`
         .testimonials-swiper .swiper-pagination-bullet {
           background: #D4AF37;
           opacity: 0.3;
