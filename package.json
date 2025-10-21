@@ -52,7 +52,7 @@
     "commitlint": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "eslint": "^8.53.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "husky": "^8.0.3",
     "jsdom": "^23.0.1",
