@@ -1,0 +1,29 @@
+{
+  "name": "SterMakeUp - Beleza que inspira confiança",
+  "short_name": "SterMakeUp",
+  "description": "Serviços profissionais de maquiagem para noivas, eventos e produção",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1C1C1C",
+  "theme_color": "#D4AF37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["beauty", "lifestyle", "business"],
+  "lang": "pt-BR",
+  "dir": "ltr"
+}
+
+

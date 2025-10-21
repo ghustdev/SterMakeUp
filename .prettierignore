@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+*.log
+
+# Environment files
+.env*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated files
+*.min.js
+*.min.css
+
+

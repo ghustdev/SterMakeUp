@@ -1,0 +1,21 @@
+{
+  "extends": ["config:base"],
+  "schedule": ["before 6am on monday"],
+  "timezone": "America/Sao_Paulo",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": ">=1.0.0",
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    }
+  ],
+  "labels": ["dependencies"],
+  "prConcurrentLimit": 3,
+  "prHourlyLimit": 2
+}
+
+
