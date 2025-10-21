@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
                 de maquiagem profissional e personalizada.
               </p>
               <div className="flex space-x-4">
-                {socialLinks.map((social, index) => (
+                {socialLinks.map((social) => (
                   <motion.a
                     key={social.label}
                     href={social.href}
@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
             >
               <h3 className="text-white font-bold text-lg mb-4">Links Rápidos</h3>
               <ul className="space-y-3">
-                {quickLinks.map((link, index) => (
+                {quickLinks.map((link) => (
                   <li key={link.name}>
                     <motion.a
                       href={link.href}
@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
             >
               <h3 className="text-white font-bold text-lg mb-4">Nossos Serviços</h3>
               <ul className="space-y-3">
-                {services.map((service, index) => (
+                {services.map((service) => (
                   <li key={service}>
                     <span className="text-gray-400 hover:text-gold transition-colors duration-300 cursor-pointer">
                       {service}

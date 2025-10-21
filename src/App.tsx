@@ -14,7 +14,7 @@ function App() {
     // Initialize locomotive scroll with error handling
     const initLocomotiveScroll = async () => {
       try {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default
+        const { default: LocomotiveScroll } = await import('locomotive-scroll')
         new LocomotiveScroll({
           el: document.querySelector('[data-scroll-container]'),
           smooth: true,

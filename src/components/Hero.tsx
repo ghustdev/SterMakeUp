@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
         direction: 'none' as const,
         enable: true,
         outModes: {
-          default: 'bounce',
+          default: 'bounce' as const,
         },
         random: false,
         speed: 1,

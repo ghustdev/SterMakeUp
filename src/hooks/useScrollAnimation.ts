@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useInView } from 'framer-motion'
 
-export const useScrollAnimation = (threshold = 0.1) => {
+export const useScrollAnimation = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
   
@@ -15,7 +15,6 @@ export const useParallax = (speed = 0.5) => {
   useEffect(() => {
     const handleScroll = () => {
       if (ref.current) {
-        const rect = ref.current.getBoundingClientRect()
         const scrolled = window.pageYOffset
         const rate = scrolled * -speed
         setOffset(rate)

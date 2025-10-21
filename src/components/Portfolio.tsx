@@ -101,7 +101,7 @@ const Portfolio: React.FC = () => {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="flex flex-wrap justify-center gap-4 mb-12"
         >
-          {categories.map((category, index) => (
+          {categories.map((category) => (
             <motion.button
               key={category}
               whileHover={{ scale: 1.05 }}
